@@ -1,0 +1,113 @@
+ img{width: 100%;}
+
+.chat{
+  position: fixed;
+  right: 30px;
+  bottom: 0;
+  font-size: 80px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1000;
+}
+.chatting{
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+  width: 400px;
+  height: 75vh;
+  background: #d1e3e2;
+  z-index: 1000;
+  transform: all 0.3s ease-out;
+  transform: scaley(0);
+}
+.chatting.active{
+  transform: scaleY(1);
+}
+/*.container-center{
+  display: flex; flex-wrap: wrap; position: relative; z-index: 1; justify-content: center;
+}
+.equalize
+{
+  display: flex;
+}*/
+  .services{
+  vertical-align: middle;
+  margin-top: 8%;
+    margin: 7px;
+    padding: 17px 2px 17px 42px;
+  }
+  .services:hover img{
+    transform: scale(1.5);
+  }
+  .services img{
+    transition: all 1.5s ease;
+  }
+  .icons{
+    width: 40px;
+    background: #fff;
+  border-radius: 50px;
+  padding: 4px;
+}
+
+
+  .about{
+    background: #9c7527; 
+    padding: 60px 0 60px 0;
+  }
+  hr.style1{
+    border-radius: 10px;
+  border-top: 6px solid #ffffff;
+}
+
+  .page{
+    margin-top: 60px;
+    background: url(../img/img.png);
+    padding: 60px 0 60px 0;
+  }
+
+  .content-area{
+    background: #fbedea;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .hed{
+    margin: 10px -72px;
+    width: 60px;
+  }
+  .logo
+{
+  width: 160px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 4px;
+}
+  
+.contact
+{
+  background: #0c071b;
+  border-radius: 35px;
+  margin-top: 60px;
+  padding: 60px 0 60px 0;
+}
+.footer
+{
+  margin-top: 13px;
+  border-radius: 35px;
+  background: #0c071b;
+  padding: 60px 0 60px 0;
+
+}
+.media
+{
+  width: 20px ;
+}
+
+.socialmedia i{ margin: 10px 23px; float: right;}
+.card:hover{ 
+  color: #ff3333;
+  -webkit-box-shadow: 1px 9px 40px 20px rgba(0,0,0,.8);
+  -moz-box-shadow: 1px 9px 40px 20px rgba(0,0,0,.8);
+  box-shadow: 1px 9px 40px 20px rgba(0,0,0,.8);
+}

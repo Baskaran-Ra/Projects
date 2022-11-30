@@ -1,0 +1,236 @@
+body{
+    font-family: 'Gilroy-Medium',sans-serif;
+
+}
+p{
+    margin-bottom: 0px;
+}
+@font-face{
+   
+   font-family: 'Gilroy-Medium';
+  src: url(..//fonts/Gilroy-Medium.ttf);
+} 
+
+.nav-link {
+    padding: 0px 20px 0px 20px;
+    font-size: 13px;
+   color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+.text{    
+    border-radius: 3px;
+    padding: 10px 5px;
+        
+    color: #000;
+    background-color: #fed500;
+}
+.head{
+    position: relative;
+}
+.head::after {
+    position: absolute;
+    content: "";
+    background-image: url(../img/Group.png);
+    top: -39rem;
+    right: 48rem;
+    z-index: 1;
+    height: 45rem;
+    width: 66%; 
+}
+.images::before {
+    position: absolute;
+    content: "";
+    background-image: url(../img/Group.png);
+    top: -6rem;
+    right: 0rem;
+    z-index: 0;
+    height: 36rem;
+    width: 27%;
+}
+
+
+
+.have {
+
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+}
+.content-area{
+    border-radius: 10px;
+    background-color: #EAB454;
+}
+.image{
+
+    padding: 45px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.locat{
+
+   padding: 15px 37px 23px 37px;
+}
+.phone{
+   padding: 15px 0 35px 0;
+}
+.content-area1{
+    border-radius: 10px;
+    background-color: #F7976F;
+}
+a {
+    display: flex;
+    color: #0a0a0a;
+    text-decoration: none;
+    
+    justify-content: center;
+}
+
+.form-group{
+    margin-left: 25px;
+   background-color: #102B33;
+    margin-bottom: 15px;
+    max-width: 330px;
+}
+
+.input{
+    color: #fff;
+    background-color: #08161a;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+}
+.input::placeholder{
+    color: #fff;
+}
+
+.form{
+        background: #0f2b32;
+        padding: 35px;
+        
+        margin-left: 4rem;
+}
+@media screen and (max-width: 576px) {
+  
+.form{
+   margin-left: 0px;
+  
+}
+}
+.content-area2{
+    border-radius: 10px;
+    background-color: #A7AFD6;
+}
+.social{
+    background-color: #0A2127;
+}
+.conta-form {
+    background-color: #102B33;
+    padding: 12px 0px 0px 0px;
+}
+.btn{
+    margin-left: 25px;
+    padding:11px 25px 11px 25px;
+    background-color: yellow;
+}
+.appoinment{
+    background-color: #102B33;
+
+}
+.appoin {
+    margin-left: 6rem;
+    background-color: #FFFFFF;
+}
+.another{
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 4rem 6rem 4rem 6rem;
+    padding: 2rem 0rem 5rem 5rem;
+
+}
+
+@media screen and (max-width: 576px) {
+  
+.another {
+   margin: 1rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
+
+}
+}
+.eon{
+    padding: 0rem 6rem 0rem 7rem;
+}
+.border
+{
+   border-radius: 10px;
+display: flex;
+justify-content: space-around;
+margin-top: 2rem;
+}
+
+
+.para{
+
+    font-size: 16px;
+    color: #000;
+    
+}
+
+
+
+
+
+.footer
+{
+    
+    background-color: #0a2127;
+}
+.abo
+{
+color: yellow;
+    padding:32px 0px 18px 51px;
+}
+
+
+@media screen and (max-width: 576px) {
+  
+.abo {
+    padding: 15px 0px 0px 0px;
+
+  }
+}
+
+.seco{
+    padding-left: 50px;
+
+}
+
+@media screen and (max-width: 576px) {
+  
+.seco {
+    padding: 5px 0px 0px 0px;
+
+  }
+}
+
+.social i {
+   
+    margin: 17px 10px;
+    color: #fff;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 50px;
+}
+@media screen and (max-width: 576px) {
+  
+.copy{
+    padding: 18px 0px 0px 0px;
+  }
+}

@@ -1,0 +1,117 @@
+body{
+   
+    font-family: 'Rubik', sans-serif;"
+}
+.nav-link {
+    padding: 0px 20px 0px 20px;
+    font-size: 13px;
+   color: #fff;
+}
+.text{    
+    border-radius: 3px;
+    padding: 10px 5px;
+        
+    color: #000;
+    background-color: #fed500;
+}
+.fa-life-ring:before {
+    content: "";
+    top: 26px;
+    left: 9px;
+    position: relative;
+}
+.banner
+{
+    background-color: #fed500;
+}
+.num
+{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 25px 0px 0px 15px;
+}
+.num {
+    padding-right: 15px;
+  border-right: thin solid #fcefab;
+}
+.numm{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 25px 0px 0px 15px;
+
+}
+
+.txt{
+    font-size: 16px;
+    padding: 24px 29px 12px 39px;
+}
+.eon {
+    color: #0a2127;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 0px 0px 0px 48px;
+}
+.content-area {
+    background: #0a2127;
+    color: #fff;
+    margin-right: -10px;
+    margin-top: 8px;
+    padding: 20px;
+    border-radius: 10px;
+    }
+.numb{
+    font-size: 13px;
+}
+
+.icons{
+    max-width: 100%;
+    padding: 0px 15px 0px 143px;
+}
+.main{
+
+   padding: 33px 10px 33px 0px;
+}
+.service{ 
+    background-color: #0a2127;
+ margin-top: 290px; 
+ padding-bottom: 350px;
+}
+.image{
+    max-width: 100%;
+    margin: -153px 0px 0px -77px;
+}
+.about{
+    padding: 65px 0px 0px 50px;
+}
+.digi{
+    font-weight: bold;
+   font-size: 16px;
+    padding: 36px 180px 0px 106px;
+}
+.digii{
+    font-size: 14px;
+    padding: 36px 180px 0px 106px;
+}
+.mobile{
+   margin: -265px 0px 0px 136px;
+}
+.dummy{
+    margin: -261px 0px 0px 0px;
+    color: #fff;
+}
+ .fa-check:before {
+    content: "\f00c";
+    position: relative;
+    top: 24px;
+}
+.footer
+{
+    background-color: #0a2127;
+}
+.social i {
+    
+    margin: 17px 10px;
+    color: #fff;
+}
